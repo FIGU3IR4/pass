@@ -132,3 +132,17 @@ header {
   color: #f0ecec;
   text-align: center;
 }
+
+.contatos a {
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+
+.email p, a , .contato p, a, .linkedin p, a, .slack p, a{
+
+ padding-bottom: 25%;
+  
+  
+}
