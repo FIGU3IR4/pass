@@ -122,41 +122,74 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem 6rem;
-
 }
 
-.email, .contato, .linkedin, .slack{
-  
+.email,
+.contato,
+.linkedin,
+.slack {
   width: 250px;
   height: 280px;
   border-radius: 15%;
-  color: #f0ecec;
+  color: #b0afaf;
   text-align: center;
 }
 
 .contatos a {
   text-decoration: none;
   color: #fff;
-  
 }
 
-
-.email p, a , .contato p, a, .linkedin p, a, .slack p, a{
-
- padding-bottom: 25%;
-  
-  
+.email p,
+a,
+.contato p,
+a,
+.linkedin p,
+a,
+.slack p,
+a {
+  padding-bottom: 25%;
 }
 
-.contato{
-  background-color: #32f856;
+.contato {
+  background-color: #305867;
 }
-.linkedin{
-  background-color: rgb(78, 78, 239);
+.linkedin {
+  background-color: #305867;
 }
-.slack{
-  background-color: rgb(233, 233, 106);
+.slack {
+  background-color:#305867;
 }
-.email{
-  background-color: #ec0000;
+.email {
+  background-color:#305867;
+}
+#test :hover {
+  color: hsl(60, 3%, 6%);
+
+  transition: 0.5s;
+}
+
+.sobre2 {
+  display: flex;
+}
+
+.minhafoto {
+  justify-content: space-between;
+  padding: 1rem 10rem;
+}
+.sobretexto {
+  justify-content: space-between;
+  padding: 4rem 0rem;
+}
+
+.main_contatos{
+  background: url(https://guiaviajarmelhor.com.br/wp-content/uploads/2023/04/recife-a-noite-o-que-fazer2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+
+}
+.sobretexto{
+  background: url(https://img.freepik.com/fotos-gratis/textura-de-papel-branco_1194-2301.jpg);
+  border-radius: 10px;
 }
