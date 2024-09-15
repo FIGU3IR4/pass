@@ -182,10 +182,11 @@ a {
   padding: 4rem 0rem;
 }
 
-.main_contatos{
+.main_{
   background: url(https://guiaviajarmelhor.com.br/wp-content/uploads/2023/04/recife-a-noite-o-que-fazer2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
  
 
 }
