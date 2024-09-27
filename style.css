@@ -190,7 +190,9 @@ a {
  
 
 }
-.sobretexto{
-  background: url(https://img.freepik.com/fotos-gratis/textura-de-papel-branco_1194-2301.jpg);
-  border-radius: 10px;
+
+.index{
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0rem;
 }
