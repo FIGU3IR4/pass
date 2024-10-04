@@ -7,7 +7,7 @@
 }
 
 header {
-  background-color: #24252a;
+  background-color: #7db4b5;
   box-shadow: 0px 3px 10px #464646;
 }
 
@@ -58,17 +58,17 @@ header {
 }
 
 .nav-item #item1:hover {
-  color: #ec0000;
+  color: #680148;
 
   transition: 0.5s;
 }
 .nav-item #item2:hover {
-  color: #00f22c;
+  color: #680148;
 
   transition: 0.5s;
 }
 .nav-item #item3:hover {
-  color: hsl(64, 96%, 44%);
+  color: #680148;
 
   transition: 0.5s;
 }
@@ -77,11 +77,11 @@ header {
   width: 100%;
   background: linear-gradient(
     85deg,
-    #000000,
-    rgb(63, 63, 63),
-    #6f6f6f,
-    rgb(63, 63, 63),
-    #000000
+    #ffffff,
+    rgb(230, 230, 230),
+    #d6d5d5,
+    rgb(230, 230, 230),
+    #ffffff
   );
   background-size: 300% 300%;
   animation: color 6s ease-in-out infinite;
@@ -100,12 +100,13 @@ header {
 }
 
 .cab_contatos {
-  background-color: #305867;
+  background-color: #680148;
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  box-shadow: 0px 3px 10px #070606;
 }
 .rodape {
   position: fixed;
@@ -152,16 +153,16 @@ a {
 }
 
 .contato {
-  background-color: #305867;
+  background-color: #680148;
 }
 .linkedin {
-  background-color: #305867;
+  background-color: #680148;
 }
 .slack {
-  background-color:#305867;
+  background-color:#680148;
 }
 .email {
-  background-color:#305867;
+  background-color:#680148;
 }
 #test :hover {
   color: hsl(60, 3%, 6%);
@@ -195,4 +196,16 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 4rem 0rem;
+}
+.projetos_section{
+  display: flex;
+  
+}
+.foto_projetos{
+  justify-content: space-between;
+  padding: 8rem 4rem;
+}
+.texto_projetos{
+  justify-content: space-between;
+  padding: 4rem 1rem;
 }
