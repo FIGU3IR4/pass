@@ -6,6 +6,10 @@
   font-family: "inter", sans-serif;
 }
 
+section{
+  display: flex;
+}
+
 header {
   background-color: #7db4b5;
   box-shadow: 0px 3px 10px #464646;
@@ -71,7 +75,7 @@ header {
   color: #680148;
 
   transition: 0.5s;
-}
+}/*
 .container {
   height: 100vh;
   width: 100%;
@@ -85,7 +89,7 @@ header {
   );
   background-size: 300% 300%;
   animation: color 6s ease-in-out infinite;
-}
+}*/
 
 @keyframes color {
   0% {
@@ -208,4 +212,12 @@ a {
 .texto_projetos{
   justify-content: space-between;
   padding: 4rem 1rem;
+}
+.sobre_{
+  justify-content: space-between;
+  padding: 15rem 3rem;
+}
+.hellcife{
+  justify-content: space-between;
+  padding: 15rem 3rem;
 }
